@@ -2,23 +2,40 @@
 //  ContentView.swift
 //  Recipe Roulette
 //
-//  Created by Mimi Henry on 12/3/25.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            RecipeView()
+                .tabItem {
+                    Label("Roulette", systemImage: "die.face.5")
+                }
+            
+            FavoritesView()
+                .tabItem {
+                    Label("Favorites", systemImage: "heart.fill")
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                }
+            
+            InfoView()
+                .tabItem {
+                    Label("Info", systemImage: "info.circle")
+            }
+            
+            
         }
-        .padding()
+        .tint(Color.accentColor1)
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(RecipeViewModel())
 }

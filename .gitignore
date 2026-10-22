@@ -1,0 +1,15 @@
+# Xcode build files
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Local configuration and secrets
+.env
+.env.*
+*.xcconfig.local

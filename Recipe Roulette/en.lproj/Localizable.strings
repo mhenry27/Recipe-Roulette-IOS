@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Recipe Roulette
+
+  Created by Mimi Henry on 12/4/25.
+  
+*/
+"Roulette" = "Roulette";
+"Favorites" = "Favorites";
+"Settings" = "Settings";
+
+"Loading recipe…" = "Loading recipe…";
+"Tap Roll Again to spin for a recipe!" = "Tap Roll Again to spin for a recipe!";
+"Roll Again" = "Roll Again";
+
+"No favorites yet. Tap the heart on a recipe to save it." = "No favorites yet. Tap the heart on a recipe to save it.";
+
+"Error" = "Error";
+"Could not fetch a recipe. Please try again." = "Could not fetch a recipe. Please try again.";
+
+"Clear all favorites?" = "Clear all favorites?";
+"This will remove all saved recipes. You cannot undo this." = "This will remove all saved recipes. You cannot undo this.";
+
+"Filter Recipes" = "Filter Recipes";
+"Any Recipe" = "Any Recipe";
+"Match Preferred Cuisine" = "Match Preferred Cuisine";
+"Only Tagged Recipes" = "Only Tagged Recipes";
+"Short Instructions Only" = "Short Instructions Only";
+
+"Daily Recipe Notification" = "Daily Recipe Notification";

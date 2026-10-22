@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Recipe Roulette
+
+  Created by Mimi Henry on 12/4/25.
+  
+*/
+"Roulette" = "Ruleta";
+"Favorites" = "Favoritos";
+"Settings" = "Ajustes";
+
+"Loading recipe…" = "Cargando receta…";
+"Tap Roll Again to spin for a recipe!" = "Toca \"Girar de nuevo\" para obtener otra receta.";
+"Roll Again" = "Girar de nuevo";
+
+"No favorites yet. Tap the heart on a recipe to save it." = "Todavía no hay favoritos. Toca el corazón en una receta para guardarla.";
+
+"Error" = "Error";
+"Could not fetch a recipe. Please try again." = "No se pudo obtener una receta. Inténtalo de nuevo.";
+
+"Clear all favorites?" = "¿Borrar todos los favoritos?";
+"This will remove all saved recipes. You cannot undo this." = "Esto eliminará todas las recetas guardadas. No se puede deshacer.";
+
+"Filter Recipes" = "Filtrar recetas";
+"Any Recipe" = "Cualquier receta";
+"Match Preferred Cuisine" = "Coincidir con la cocina preferida";
+"Only Tagged Recipes" = "Solo recetas con etiquetas";
+"Short Instructions Only" = "Solo instrucciones cortas";
+
+"Daily Recipe Notification" = "Notificación diaria de receta";
